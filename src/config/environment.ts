@@ -7,7 +7,7 @@ export const config = {
   baseUrl: process.env.BASE_URL || 'https://www.demoblaze.com',
 
   browser: {
-    headless: process.env.HEADLESS === 'false',
+    headless: process.env.HEADLESS === 'true',
   },
 
   timeouts: {
@@ -27,3 +27,4 @@ export const config = {
 
 export type Config = typeof config;
 export default config;
+
