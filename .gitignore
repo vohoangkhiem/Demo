@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Test Results
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Build Output
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# Authentication state (if stored)
+.auth/
+storageState.json
