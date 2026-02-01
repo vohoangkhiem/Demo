@@ -51,18 +51,16 @@ Key settings in `playwright.config.ts`:
 
 A GitHub Actions workflow is included at `.github/workflows/playwright.yml`.
 
-### Manual Execution
+### Automatic Triggers
 
-1. Go to your GitHub repository
-2. Click **Actions** tab
-3. Select **Playwright E2E Tests** workflow
-4. Click **Run workflow**
-5. Click **Run workflow** button
+The workflow runs automatically when you:
+- Push to `main`, `master`, or `develop` branch
+- Create a Pull Request to these branches
 
 ### View Test Results
 
 1. Go to **Actions** tab
 2. Click on the workflow run
 3. Download artifacts:
-   - `playwright-report-{browser}` - HTML test report
-   - `test-results-{browser}` - Screenshots/videos (on failure)
+   - `playwright-report` - HTML test report
+   - `test-results` - Screenshots/videos (on failure)
